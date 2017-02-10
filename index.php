@@ -13,12 +13,12 @@ if ($_GET['sort'] == NULL) $sql = "SELECT * FROM ".$datatable." ORDER BY pavadin
 
 if ($_GET['sort'] == 'type')
 {
-	$sql = "SELECT * FROM biblioteka";
+	$sql = "SELECT * FROM ".$datatable."";
     $sql .= " ORDER BY pavadinimas ASC LIMIT $start_from, ".$results_per_page;
 }
 elseif ($_GET['sort'] == 'desc')
 {
-		$sql = "SELECT * FROM biblioteka";
+		$sql = "SELECT * FROM ".$datatable."";
     $sql .= " ORDER BY pavadinimas DESC LIMIT $start_from, ".$results_per_page;
 }
 $rs_result = $conn->query($sql);

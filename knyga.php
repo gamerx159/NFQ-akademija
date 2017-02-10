@@ -8,7 +8,7 @@ echo "<p><a href=\"javascript:history.go(-1)\">Gryžti puslapiu atgal</a></p>";
 
 
 
-$sql = "SELECT pavadinimas, metai, autoriai, zanras FROM biblioteka WHERE id='".$id."'";
+$sql = "SELECT pavadinimas, metai, autoriai, zanras FROM ".$datatable." WHERE id='".$id."'";
 $result = $conn->query($sql);
 
    if ($result->num_rows > 0) {

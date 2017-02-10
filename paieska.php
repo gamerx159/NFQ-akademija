@@ -13,7 +13,7 @@ if($paieska==NULL){
 }
 else{
 
-$sql = "SELECT id, pavadinimas FROM biblioteka  WHERE pavadinimas LIKE '".$paieska."%' or autoriai LIKE '%".$paieska."%'";
+$sql = "SELECT id, pavadinimas FROM ".$datatable."  WHERE pavadinimas LIKE '".$paieska."%' or autoriai LIKE '%".$paieska."%'";
 $result = $conn->query($sql);
 
 echo "".$result->num_rows." Paieškos rezultatai su raktažodžiu <b>".$paieska."</b>:<br><br>";

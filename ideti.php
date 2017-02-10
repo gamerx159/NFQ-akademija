@@ -19,14 +19,14 @@ if($pavadinimas==NULL)
 }	
 else {
 
-$sql1 = "SELECT * FROM biblioteka  WHERE pavadinimas LIKE '".$pavadinimas."' ORDER BY pavadinimas ASC";
+$sql1 = "SELECT * FROM ".$datatable."  WHERE pavadinimas LIKE '".$pavadinimas."' ORDER BY pavadinimas ASC";
 $results = $conn->query($sql1);
    if ($results->num_rows > 0 ) 
 	echo "<p>Tokia knyga jau yra</p>";
 	else 
 	{
 
-$sql = "INSERT INTO biblioteka (pavadinimas, metai, autoriai, zanras)
+$sql = "INSERT INTO ".$datatable." (pavadinimas, metai, autoriai, zanras)
 VALUES ('".$pavadinimas."', '".$metai."', '".$autoriai."', '".$zanras."')";
 
 if ($conn->query($sql) === TRUE) {
