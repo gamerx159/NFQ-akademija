@@ -69,6 +69,6 @@ else if($_GET["sort"] == "desc" || "type")
 };
 echo "<br><br><br>Šiuo metu turime viso ". $row["total"] . " knygų.";
 
-?></center>
+?>
 </body>
 </html>
