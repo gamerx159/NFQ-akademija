@@ -11,17 +11,17 @@ Visą kodą programuoti buvo naudojamas TIK PHP! (iškyrus js ant title iššoki
 
 Šiuose failuose galite rasti
 
-Knygų įkėlimą (dėl pačio patogumo įkeliant 50 pavyzdinių įrašų)
-Pavadinimų rikiavimą paspaudus ant žodžio pavadinimas
-Paiešką
-Detalesnė informaciją su galimybe nusiūsti nuorodą draugui (naudotas get metodas).
-Atskiras failas headeriui redaguoti.
-Atskiras failas nustatymas redaguoti.
-Galimybė nustatyti kiek pagrindinio puslapio rodys įrašų prieš perkeliant į puslapį.
-Įdėta knygų skaičiuotuvas (parodo kiek yra esamų knygų).
-
-Klaida tiek, kad naudojant ASC SQL rikiavimą pirmus pasirinkimus rodo su nosinėm raidėm, o paskui pagal abėcėlės tvarka.
-
+Knygų įkėlimą (dėl pačio patogumo įkeliant 50 pavyzdinių įrašų)<br>
+Pavadinimų rikiavimą paspaudus ant žodžio pavadinimas<br>
+Paiešką<br>
+Detalesnė informaciją su galimybe nusiūsti nuorodą draugui (naudotas get metodas).<br>
+Atskiras failas headeriui redaguoti.<br>
+Atskiras failas nustatymas redaguoti.<br>
+Galimybė nustatyti kiek pagrindinio puslapio rodys įrašų prieš perkeliant į puslapį.<br>
+Įdėta knygų skaičiuotuvas (parodo kiek yra esamų knygų).<br>
+<br>
+Klaida tiek, kad naudojant ASC SQL rikiavimą pirmus pasirinkimus rodo su nosinėm raidėm, o paskui pagal abėcėlės tvarka.<br>
+<br>
 Galima peržiūrėti į DEMO versiją nuoroda:
 http://etravi.lt/php/valdas/NFQ-biblioteka/
 
